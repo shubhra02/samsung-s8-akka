@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-samsung.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-samsung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-samsung-build.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-samsung-build.iml" />
+    </modules>
+  </component>
+</project>
