@@ -11,9 +11,11 @@ class ValidationActor extends Actor{
     case user: Customer => if(noOfPhones > 0){
                             noOfPhones -= 1
                             log.info(s"Phone successfully purchased by ${user.name}")
+                            sender() ! "phone booked"
                            }
       else
       log.error(s"Sorry ${user.name}, phone is Out Of Stock!!  Try again later")
+      sender() ! "out of stock"
   }
 }
 

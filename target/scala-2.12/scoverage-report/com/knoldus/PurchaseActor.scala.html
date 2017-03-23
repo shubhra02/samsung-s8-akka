@@ -1,0 +1,247 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          com/knoldus/PurchaseActor.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package com.knoldus
+</span>2 <span style=''>
+</span>3 <span style=''>import akka.actor.{Actor, ActorRef, Props}
+</span>4 <span style=''>
+</span>5 <span style=''>class PurchaseActor(requestHandlerRef: ActorRef) extends Actor{
+</span>6 <span style=''>  override def receive = {
+</span>7 <span style=''>    case user: Customer =&gt;  </span><span style='background: #AEF1AE'>sender() ! &quot;this is purchasing customer of samsung s8&quot;</span><span style=''>
+</span>8 <span style=''>                            </span><span style='background: #AEF1AE'>requestHandlerRef ! user</span><span style=''>
+</span>9 <span style=''>
+</span>10 <span style=''>  }
+</span>11 <span style=''>
+</span>12 <span style=''>}
+</span>13 <span style=''>
+</span>14 <span style=''>
+</span>15 <span style=''>object PurchaseActor{
+</span>16 <span style=''>  def purchaseActorProps(requestHandlerRef: ActorRef) = </span><span style='background: #AEF1AE'>Props(classOf[PurchaseActor], requestHandlerRef)</span><span style=''>
+</span>17 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          8
+        </td>
+        <td>
+          154
+          -
+          154
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.PurchaseActor.$anonfun.&lt;init&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          new $anonfun()
+        </td>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          195
+          -
+          238
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;this is purchasing customer of samsung s8&quot;
+        </td>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          4
+        </td>
+        <td>
+          184
+          -
+          238
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.actor.ScalaActorRef.!
+        </td>
+        <td style="background: #AEF1AE">
+          actor.this.`package`.actorRef2Scala(PurchaseActor.this.sender()).!(&quot;this is purchasing customer of samsung s8&quot;)(PurchaseActor.this.self)
+        </td>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          184
+          -
+          192
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.actor.Actor.sender
+        </td>
+        <td style="background: #AEF1AE">
+          PurchaseActor.this.sender()
+        </td>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          3
+        </td>
+        <td>
+          193
+          -
+          193
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.Actor.self
+        </td>
+        <td style="background: #AEF1AE">
+          PurchaseActor.this.self
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          5
+        </td>
+        <td>
+          267
+          -
+          284
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.PurchaseActor.requestHandlerRef
+        </td>
+        <td style="background: #AEF1AE">
+          PurchaseActor.this.requestHandlerRef
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          7
+        </td>
+        <td>
+          267
+          -
+          291
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.actor.ScalaActorRef.!
+        </td>
+        <td style="background: #AEF1AE">
+          actor.this.`package`.actorRef2Scala(PurchaseActor.this.requestHandlerRef).!(user)(PurchaseActor.this.self)
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          6
+        </td>
+        <td>
+          285
+          -
+          285
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.Actor.self
+        </td>
+        <td style="background: #AEF1AE">
+          PurchaseActor.this.self
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          9
+        </td>
+        <td>
+          380
+          -
+          428
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.actor.Props.apply
+        </td>
+        <td style="background: #AEF1AE">
+          akka.actor.Props.apply(classOf[com.knoldus.PurchaseActor], requestHandlerRef)
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

@@ -1,0 +1,678 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          com/knoldus/ValidationActor.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package com.knoldus
+</span>2 <span style=''>
+</span>3 <span style=''>import akka.actor.{Actor, ActorRef, Props}
+</span>4 <span style=''>import akka.event.Logging
+</span>5 <span style=''>
+</span>6 <span style=''>class ValidationActor extends Actor{
+</span>7 <span style=''>
+</span>8 <span style=''>  val log = </span><span style='background: #AEF1AE'>Logging(context.system, this)</span><span style=''>
+</span>9 <span style=''>  var noOfPhones = </span><span style='background: #AEF1AE'>1000</span><span style=''>
+</span>10 <span style=''>  override def receive = {
+</span>11 <span style=''>    case user: Customer =&gt; if(</span><span style='background: #AEF1AE'>noOfPhones &gt; 0</span><span style=''>)</span><span style='background: #AEF1AE'>{
+</span>12 <span style=''></span><span style='background: #AEF1AE'>                            noOfPhones -= 1
+</span>13 <span style=''></span><span style='background: #AEF1AE'>                            log.info(s&quot;Phone successfully purchased by ${user.name}&quot;)
+</span>14 <span style=''></span><span style='background: #AEF1AE'>                            sender() ! &quot;phone booked&quot;
+</span>15 <span style=''></span><span style='background: #AEF1AE'>                           }</span><span style=''>
+</span>16 <span style=''>      else
+</span>17 <span style=''>      </span><span style='background: #AEF1AE'>log.error(s&quot;Sorry ${user.name}, phone is Out Of Stock!!  Try again later&quot;)</span><span style=''>
+</span>18 <span style=''>      </span><span style='background: #AEF1AE'>sender() ! &quot;out of stock&quot;</span><span style=''>
+</span>19 <span style=''>  }
+</span>20 <span style=''>}
+</span>21 <span style=''>
+</span>22 <span style=''>object ValidationActor{
+</span>23 <span style=''>  def validationProps = </span><span style='background: #AEF1AE'>Props[ValidationActor]</span><span style=''>
+</span>24 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          41
+        </td>
+        <td>
+          148
+          -
+          148
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.event.LogSource.fromActor
+        </td>
+        <td style="background: #AEF1AE">
+          event.this.LogSource.fromActor
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          40
+        </td>
+        <td>
+          149
+          -
+          163
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.ActorContext.system
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.context.system
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          42
+        </td>
+        <td>
+          141
+          -
+          170
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.event.Logging.apply
+        </td>
+        <td style="background: #AEF1AE">
+          akka.event.Logging.apply[com.knoldus.ValidationActor](ValidationActor.this.context.system, this)(event.this.LogSource.fromActor)
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          43
+        </td>
+        <td>
+          190
+          -
+          194
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          1000
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          67
+        </td>
+        <td>
+          220
+          -
+          220
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.ValidationActor.$anonfun.&lt;init&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          new $anonfun()
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          44
+        </td>
+        <td>
+          252
+          -
+          266
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.noOfPhones.&gt;(0)
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          56
+        </td>
+        <td>
+          267
+          -
+          481
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  ValidationActor.this.noOfPhones_=(ValidationActor.this.noOfPhones.-(1));
+  ValidationActor.this.log.info(scala.StringContext.apply(&quot;Phone successfully purchased by &quot;, &quot;&quot;).s(user.name));
+  actor.this.`package`.actorRef2Scala(ValidationActor.this.sender()).!(&quot;phone booked&quot;)(ValidationActor.this.self)
+}
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          46
+        </td>
+        <td>
+          297
+          -
+          312
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.ValidationActor.noOfPhones_=
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.noOfPhones_=(ValidationActor.this.noOfPhones.-(1))
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          45
+        </td>
+        <td>
+          297
+          -
+          312
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.-
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.noOfPhones.-(1)
+        </td>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          50
+        </td>
+        <td>
+          350
+          -
+          397
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Phone successfully purchased by &quot;, &quot;&quot;).s(user.name)
+        </td>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          47
+        </td>
+        <td>
+          352
+          -
+          385
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Phone successfully purchased by &quot;
+        </td>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          49
+        </td>
+        <td>
+          386
+          -
+          395
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.Customer.name
+        </td>
+        <td style="background: #AEF1AE">
+          user.name
+        </td>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          48
+        </td>
+        <td>
+          396
+          -
+          397
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;&quot;
+        </td>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          51
+        </td>
+        <td>
+          341
+          -
+          398
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.event.LoggingAdapter.info
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.log.info(scala.StringContext.apply(&quot;Phone successfully purchased by &quot;, &quot;&quot;).s(user.name))
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          53
+        </td>
+        <td>
+          438
+          -
+          452
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;phone booked&quot;
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          55
+        </td>
+        <td>
+          427
+          -
+          452
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.actor.ScalaActorRef.!
+        </td>
+        <td style="background: #AEF1AE">
+          actor.this.`package`.actorRef2Scala(ValidationActor.this.sender()).!(&quot;phone booked&quot;)(ValidationActor.this.self)
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          52
+        </td>
+        <td>
+          427
+          -
+          435
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.actor.Actor.sender
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.sender()
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          54
+        </td>
+        <td>
+          436
+          -
+          436
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.Actor.self
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.self
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          59
+        </td>
+        <td>
+          519
+          -
+          528
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.Customer.name
+        </td>
+        <td style="background: #AEF1AE">
+          user.name
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          62
+        </td>
+        <td>
+          499
+          -
+          573
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          akka.event.LoggingAdapter.error
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.log.error(scala.StringContext.apply(&quot;Sorry &quot;, &quot;, phone is Out Of Stock!!  Try again later&quot;).s(user.name))
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          58
+        </td>
+        <td>
+          529
+          -
+          572
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;, phone is Out Of Stock!!  Try again later&quot;
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          61
+        </td>
+        <td>
+          499
+          -
+          573
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.event.LoggingAdapter.error
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.log.error(scala.StringContext.apply(&quot;Sorry &quot;, &quot;, phone is Out Of Stock!!  Try again later&quot;).s(user.name))
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          60
+        </td>
+        <td>
+          509
+          -
+          572
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Sorry &quot;, &quot;, phone is Out Of Stock!!  Try again later&quot;).s(user.name)
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          57
+        </td>
+        <td>
+          511
+          -
+          518
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Sorry &quot;
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          65
+        </td>
+        <td>
+          589
+          -
+          589
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.Actor.self
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.self
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          64
+        </td>
+        <td>
+          591
+          -
+          605
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;out of stock&quot;
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          63
+        </td>
+        <td>
+          580
+          -
+          588
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.actor.Actor.sender
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.sender()
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          66
+        </td>
+        <td>
+          580
+          -
+          605
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.actor.ScalaActorRef.!
+        </td>
+        <td style="background: #AEF1AE">
+          actor.this.`package`.actorRef2Scala(ValidationActor.this.sender()).!(&quot;out of stock&quot;)(ValidationActor.this.self)
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          68
+        </td>
+        <td>
+          661
+          -
+          683
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.actor.Props.apply
+        </td>
+        <td style="background: #AEF1AE">
+          akka.actor.Props.apply[com.knoldus.ValidationActor]()((ClassTag.apply[com.knoldus.ValidationActor](classOf[com.knoldus.ValidationActor]): scala.reflect.ClassTag[com.knoldus.ValidationActor]))
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

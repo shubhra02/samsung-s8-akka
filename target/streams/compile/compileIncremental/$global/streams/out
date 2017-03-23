@@ -1,0 +1,87 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala, /home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 5 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 5 Scala sources to /home/knoldus/akka-samsung/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.12.1[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.12.1[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 68501b23, interfacing (CompilerInterface) with Scala compiler version 2.12.1[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.12/jars/scalac-scoverage-plugin_2.12-1.3.0.jar[0m
+[0m[[0mdebug[0m] [0m	-P:scoverage:dataDir:/home/knoldus/akka-samsung/target/scala-2.12/scoverage-data[0m
+[0m[[0mdebug[0m] [0m	-P:scoverage:excludedPackages:com\.knoldus\.SamsungS8.*[0m
+[0m[[0mdebug[0m] [0m	-Yrangepos[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/knoldus/akka-samsung/target/scala-2.12/classes:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar:/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.17.jar:/home/knoldus/Application/activator-dist-1.3.12/repository/com.typesafe/config/1.3.0/bundles/config.jar:/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/bundles/scala-java8-compat_2.12-0.8.0.jar:/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/jars/akka-testkit_2.12-2.4.17.jar:/home/knoldus/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.1.jar:/home/knoldus/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.1.jar:/home/knoldus/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.1.jar:/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar:/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar[0m
+[0m[[0minfo[0m] [0m[info] Cleaning datadir [/home/knoldus/akka-samsung/target/scala-2.12/scoverage-data][0m
+[0m[[0minfo[0m] [0m[info] Beginning coverage instrumentation[0m
+[0m[[0minfo[0m] [0m[info] Instrumentation completed [68 statements][0m
+[0m[[0minfo[0m] [0m[info] Wrote instrumentation file [/home/knoldus/akka-samsung/target/scala-2.12/scoverage-data/scoverage.coverage.xml][0m
+[0m[[0minfo[0m] [0m[info] Will write measurement data to [/home/knoldus/akka-samsung/target/scala-2.12/scoverage-data][0m
+[0m[[0mdebug[0m] [0mScala compilation took 7.293992603 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, name, wait, copy$default$2, $asInstanceOf, creditCardNumber, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, copy$default$4, productPrefix, notifyAll, mobileNumber, isInstanceOf, <init>, ==, clone, Customer, $init$, copy$default$3, address, copy, toString, !=, getClass, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala: Set(name, asInstanceOf, isInstanceOf, <init>, Customer)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala: Set(<init>, Customer)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala: Set(name, asInstanceOf, mobileNumber, isInstanceOf, <init>, Customer)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala: Set(asInstanceOf, isInstanceOf, <init>, Customer)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, system, equals, SamsungS8, asInstanceOf, executionStart, userRequest, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, $init$, toString, args, requestRef, !=, getClass, ne, user, eq, delayedInit, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	self, context.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	self, context.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	self, context.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

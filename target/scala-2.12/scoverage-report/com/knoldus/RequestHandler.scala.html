@@ -1,0 +1,711 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          com/knoldus/RequestHandler.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package com.knoldus
+</span>2 <span style=''>
+</span>3 <span style=''>import akka.actor.{Actor, ActorRef, Props}
+</span>4 <span style=''>
+</span>5 <span style=''>import scala.collection.mutable.ListBuffer
+</span>6 <span style=''>import akka.event.Logging
+</span>7 <span style=''>
+</span>8 <span style=''>class RequestHandler extends Actor{
+</span>9 <span style=''>
+</span>10 <span style=''>  val log = </span><span style='background: #AEF1AE'>Logging(context.system, this)</span><span style=''>
+</span>11 <span style=''>  var phoneNumbers = </span><span style='background: #AEF1AE'>ListBuffer[Int]()</span><span style=''>
+</span>12 <span style=''>  val validationRef = </span><span style='background: #AEF1AE'>context.actorOf(ValidationActor.validationProps)</span><span style=''>
+</span>13 <span style=''>
+</span>14 <span style=''>  override def receive = {
+</span>15 <span style=''>
+</span>16 <span style=''>    case user: Customer =&gt; if(</span><span style='background: #AEF1AE'>phoneNumbers.contains(user.mobileNumber)</span><span style=''>)</span><span style='background: #AEF1AE'>{
+</span>17 <span style=''></span><span style='background: #AEF1AE'>      log.error(s&quot;${user.name}, You have already purchased Samsung S8, cannot purchase more!!&quot;)
+</span>18 <span style=''></span><span style='background: #AEF1AE'>      sender() ! &quot;already purchased&quot;
+</span>19 <span style=''></span><span style='background: #AEF1AE'>                            }</span><span style=''>
+</span>20 <span style=''>
+</span>21 <span style=''>                            else </span><span style='background: #AEF1AE'>{
+</span>22 <span style=''></span><span style='background: #AEF1AE'>                              phoneNumbers += user.mobileNumber
+</span>23 <span style=''></span><span style='background: #AEF1AE'>                              validationRef ! user
+</span>24 <span style=''></span><span style='background: #AEF1AE'>      sender() ! &quot;request for phone purchase accepted&quot;
+</span>25 <span style=''></span><span style='background: #AEF1AE'>                            }</span><span style=''>
+</span>26 <span style=''>  }
+</span>27 <span style=''>
+</span>28 <span style=''>}
+</span>29 <span style=''>
+</span>30 <span style=''>
+</span>31 <span style=''>object RequestHandler{
+</span>32 <span style=''>  def requestProps = </span><span style='background: #AEF1AE'>Props[RequestHandler]</span><span style=''>
+</span>33 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          191
+          -
+          191
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.event.LogSource.fromActor
+        </td>
+        <td style="background: #AEF1AE">
+          event.this.LogSource.fromActor
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          10
+        </td>
+        <td>
+          192
+          -
+          206
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.ActorContext.system
+        </td>
+        <td style="background: #AEF1AE">
+          RequestHandler.this.context.system
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          184
+          -
+          213
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.event.Logging.apply
+        </td>
+        <td style="background: #AEF1AE">
+          akka.event.Logging.apply[com.knoldus.RequestHandler](RequestHandler.this.context.system, this)(event.this.LogSource.fromActor)
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          13
+        </td>
+        <td>
+          235
+          -
+          252
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.generic.GenericCompanion.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.collection.mutable.ListBuffer.apply[Int]()
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          14
+        </td>
+        <td>
+          291
+          -
+          322
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.ValidationActor.validationProps
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.validationProps
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          15
+        </td>
+        <td>
+          275
+          -
+          323
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.actor.ActorRefFactory.actorOf
+        </td>
+        <td style="background: #AEF1AE">
+          RequestHandler.this.context.actorOf(ValidationActor.validationProps)
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          38
+        </td>
+        <td>
+          350
+          -
+          350
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.RequestHandler.$anonfun.&lt;init&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          new $anonfun()
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          17
+        </td>
+        <td>
+          383
+          -
+          423
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.generic.SeqForwarder.contains
+        </td>
+        <td style="background: #AEF1AE">
+          RequestHandler.this.phoneNumbers.contains[Int](user.mobileNumber)
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          16
+        </td>
+        <td>
+          405
+          -
+          422
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.Customer.mobileNumber
+        </td>
+        <td style="background: #AEF1AE">
+          user.mobileNumber
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          27
+        </td>
+        <td>
+          424
+          -
+          588
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  RequestHandler.this.log.error(scala.StringContext.apply(&quot;&quot;, &quot;, You have already purchased Samsung S8, cannot purchase more!!&quot;).s(user.name));
+  actor.this.`package`.actorRef2Scala(RequestHandler.this.sender()).!(&quot;already purchased&quot;)(RequestHandler.this.self)
+}
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          20
+        </td>
+        <td>
+          446
+          -
+          455
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.Customer.name
+        </td>
+        <td style="background: #AEF1AE">
+          user.name
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          22
+        </td>
+        <td>
+          432
+          -
+          521
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.event.LoggingAdapter.error
+        </td>
+        <td style="background: #AEF1AE">
+          RequestHandler.this.log.error(scala.StringContext.apply(&quot;&quot;, &quot;, You have already purchased Samsung S8, cannot purchase more!!&quot;).s(user.name))
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          19
+        </td>
+        <td>
+          456
+          -
+          520
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;, You have already purchased Samsung S8, cannot purchase more!!&quot;
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          18
+        </td>
+        <td>
+          444
+          -
+          445
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;&quot;
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          21
+        </td>
+        <td>
+          442
+          -
+          520
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;&quot;, &quot;, You have already purchased Samsung S8, cannot purchase more!!&quot;).s(user.name)
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          23
+        </td>
+        <td>
+          528
+          -
+          536
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.actor.Actor.sender
+        </td>
+        <td style="background: #AEF1AE">
+          RequestHandler.this.sender()
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          26
+        </td>
+        <td>
+          528
+          -
+          558
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.actor.ScalaActorRef.!
+        </td>
+        <td style="background: #AEF1AE">
+          actor.this.`package`.actorRef2Scala(RequestHandler.this.sender()).!(&quot;already purchased&quot;)(RequestHandler.this.self)
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          25
+        </td>
+        <td>
+          537
+          -
+          537
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.Actor.self
+        </td>
+        <td style="background: #AEF1AE">
+          RequestHandler.this.self
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          24
+        </td>
+        <td>
+          539
+          -
+          558
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;already purchased&quot;
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          37
+        </td>
+        <td>
+          623
+          -
+          824
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  RequestHandler.this.phoneNumbers.+=(user.mobileNumber);
+  actor.this.`package`.actorRef2Scala(RequestHandler.this.validationRef).!(user)(RequestHandler.this.self);
+  actor.this.`package`.actorRef2Scala(RequestHandler.this.sender()).!(&quot;request for phone purchase accepted&quot;)(RequestHandler.this.self)
+}
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          29
+        </td>
+        <td>
+          655
+          -
+          688
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.mutable.ListBuffer.+=
+        </td>
+        <td style="background: #AEF1AE">
+          RequestHandler.this.phoneNumbers.+=(user.mobileNumber)
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          28
+        </td>
+        <td>
+          671
+          -
+          688
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.Customer.mobileNumber
+        </td>
+        <td style="background: #AEF1AE">
+          user.mobileNumber
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          32
+        </td>
+        <td>
+          719
+          -
+          739
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.actor.ScalaActorRef.!
+        </td>
+        <td style="background: #AEF1AE">
+          actor.this.`package`.actorRef2Scala(RequestHandler.this.validationRef).!(user)(RequestHandler.this.self)
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          31
+        </td>
+        <td>
+          733
+          -
+          733
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.Actor.self
+        </td>
+        <td style="background: #AEF1AE">
+          RequestHandler.this.self
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          30
+        </td>
+        <td>
+          719
+          -
+          732
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.RequestHandler.validationRef
+        </td>
+        <td style="background: #AEF1AE">
+          RequestHandler.this.validationRef
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          35
+        </td>
+        <td>
+          755
+          -
+          755
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.Actor.self
+        </td>
+        <td style="background: #AEF1AE">
+          RequestHandler.this.self
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          34
+        </td>
+        <td>
+          757
+          -
+          794
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;request for phone purchase accepted&quot;
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          36
+        </td>
+        <td>
+          746
+          -
+          794
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.actor.ScalaActorRef.!
+        </td>
+        <td style="background: #AEF1AE">
+          actor.this.`package`.actorRef2Scala(RequestHandler.this.sender()).!(&quot;request for phone purchase accepted&quot;)(RequestHandler.this.self)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          33
+        </td>
+        <td>
+          746
+          -
+          754
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.actor.Actor.sender
+        </td>
+        <td style="background: #AEF1AE">
+          RequestHandler.this.sender()
+        </td>
+      </tr><tr>
+        <td>
+          32
+        </td>
+        <td>
+          39
+        </td>
+        <td>
+          878
+          -
+          899
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.actor.Props.apply
+        </td>
+        <td style="background: #AEF1AE">
+          akka.actor.Props.apply[com.knoldus.RequestHandler]()((ClassTag.apply[com.knoldus.RequestHandler](classOf[com.knoldus.RequestHandler]): scala.reflect.ClassTag[com.knoldus.RequestHandler]))
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

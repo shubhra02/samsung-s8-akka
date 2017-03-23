@@ -4,7 +4,8 @@ import akka.actor.{Actor, ActorRef, Props}
 
 class PurchaseActor(requestHandlerRef: ActorRef) extends Actor{
   override def receive = {
-    case user: Customer => requestHandlerRef ! user
+    case user: Customer =>  sender() ! "this is purchasing customer of samsung s8"
+                            requestHandlerRef ! user
 
   }
 

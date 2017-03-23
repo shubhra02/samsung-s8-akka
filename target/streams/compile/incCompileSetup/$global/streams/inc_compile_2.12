@@ -1,0 +1,456 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/knoldus/akka-samsung/target/scala-2.12/classes
+compile options:
+4 items
+0 -> -Xplugin:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.12/jars/scalac-scoverage-plugin_2.12-1.3.0.jar
+1 -> -P:scoverage:dataDir:/home/knoldus/akka-samsung/target/scala-2.12/scoverage-data
+2 -> -P:scoverage:excludedPackages:com\.knoldus\.SamsungS8.*
+3 -> -Yrangepos
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.1
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+14 items
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> /home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/Customer$.class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> /home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/Customer.class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> /home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/PurchaseActor$$anonfun$receive$1.class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> /home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/PurchaseActor$.class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> /home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/PurchaseActor.class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> /home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/RequestHandler$$anonfun$receive$1.class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> /home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/RequestHandler$.class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> /home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/RequestHandler.class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> /home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/SamsungS8$.class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> /home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/SamsungS8$delayedInit$body.class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> /home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/SamsungS8.class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> /home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/ValidationActor$$anonfun$receive$1.class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> /home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/ValidationActor$.class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> /home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/ValidationActor.class
+binary dependencies:
+18 items
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> /home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> /home/knoldus/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.17.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> /home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> /home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> /home/knoldus/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.17.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> /home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> /home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> /home/knoldus/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.17.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> /home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> /home/knoldus/Application/activator-dist-1.3.12/repository/com.typesafe/config/1.3.0/bundles/config.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> /home/knoldus/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.17.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> /home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> /home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+7 items
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> /home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> /home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> /home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> /home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> /home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> /home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> /home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+14 items
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> com.knoldus.Customer
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> com.knoldus.Customer$
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> com.knoldus.PurchaseActor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> com.knoldus.PurchaseActor$
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> com.knoldus.PurchaseActor$$anonfun$receive$1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> com.knoldus.RequestHandler
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> com.knoldus.RequestHandler$
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> com.knoldus.RequestHandler$$anonfun$receive$1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> com.knoldus.SamsungS8
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> com.knoldus.SamsungS8$
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> com.knoldus.SamsungS8$delayedInit$body
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> com.knoldus.ValidationActor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> com.knoldus.ValidationActor$
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> com.knoldus.ValidationActor$$anonfun$receive$1
+used names:
+289 items
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> &&
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> <init>
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> ==
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> A
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> AbstractFunction4
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> Any
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> AnyRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> Boolean
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> Customer
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> IndexOutOfBoundsException
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> Int
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> Iterator
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> None
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> Nothing
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> Object
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> Option
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> Predef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> Product
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> ScalaRunTime
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> Serializable
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> Some
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> Statics
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> String
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> T
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> T0
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> T1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> T2
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> T3
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> T4
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> Tuple4
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> _root_
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> _toString
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> address
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> anyHash
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> asInstanceOf
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> com
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> creditCardNumber
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> eq
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> finalizeHash
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> isInstanceOf
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> knoldus
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> mix
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> mobileNumber
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> name
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> package
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> runtime
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> toString
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> typedProductIterator
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> ||
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> !
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> <init>
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> <repeated>
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> A1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> AbstractPartialFunction
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> Actor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> ActorRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> Any
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> AnyRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> B1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> Boolean
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> Class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> Customer
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> Function1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> Int
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> Invoker
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> Nothing
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> Object
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> Predef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> Props
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> PurchaseActor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> ScalaActorRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> String
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> T0
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> Unit
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> _$2
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> actor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> actorRef2Scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> akka
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> apply
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> asInstanceOf
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> com
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> invoked
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> isInstanceOf
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> knoldus
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> package
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> requestHandlerRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> scoverage
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> self
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> sender
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> unchecked
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> !
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> +=
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> <init>
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> <repeated>
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> A
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> A1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> AbstractPartialFunction
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> Actor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> ActorContext
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> ActorRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> ActorSystem
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> Any
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> AnyRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> B1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> Boolean
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> Class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> ClassTag
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> Customer
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> Function1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> Int
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> Invoker
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> ListBuffer
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> LogSource
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> Logging
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> LoggingAdapter
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> Nothing
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> Object
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> Predef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> Props
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> RequestHandler
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> ScalaActorRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> String
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> StringContext
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> T
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> T0
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> Unit
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> ValidationActor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> _$7
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> actor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> actorOf
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> actorRef2Scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> akka
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> apply
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> asInstanceOf
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> collection
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> com
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> contains
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> context
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> error
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> event
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> fromActor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> invoked
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> isInstanceOf
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> knoldus
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> log
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> materializeClassTag
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> mobileNumber
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> mutable
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> name
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> package
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> phoneNumbers
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> reflect
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> s
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> scoverage
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> self
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> sender
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> system
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> unchecked
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> validationProps
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> validationRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> !
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> <init>
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> <repeated>
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> ActorRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> ActorSystem
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> Any
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> App
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> Config
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> ConfigFactory
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> Customer
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> FromConfig
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> Function1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> Inclusive
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> Int
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> Nothing
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> Object
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> Predef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> Props
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> PurchaseActor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> Range
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> RequestHandler
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> RichInt
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> SamsungS8
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> ScalaActorRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> String
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> StringContext
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> StringOps
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> U
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> Unit
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> actor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> actorOf
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> actorRef2Scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> akka
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> apply
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> augmentString
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> com
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> config
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> foreach
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> intWrapper
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> iterator
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> knoldus
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> package
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> parseString
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> props
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> purchaseActorProps
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> qual$1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> qual$2
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> requestProps
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> requestRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> routing
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> s
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> stripMargin
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> system
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> to
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> typesafe
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> user
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> userRequest
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> x$1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> x$2
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> x$3
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> x$4
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> !
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> -
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> <init>
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> <repeated>
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> >
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> A1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> AbstractPartialFunction
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> Actor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> ActorContext
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> ActorRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> ActorSystem
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> Any
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> AnyRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> B1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> Boolean
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> Class
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> ClassTag
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> Customer
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> Function1
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> Int
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> Invoker
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> LogSource
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> Logging
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> LoggingAdapter
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> Nothing
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> Object
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> Predef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> Props
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> ScalaActorRef
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> String
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> StringContext
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> T
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> T0
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> Unit
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> ValidationActor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> _$7
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> actor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> actorRef2Scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> akka
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> apply
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> asInstanceOf
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> com
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> context
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> error
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> event
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> fromActor
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> info
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> invoked
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> isInstanceOf
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> knoldus
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> log
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> materializeClassTag
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> name
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> noOfPhones
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> noOfPhones_=
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> package
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> reflect
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> s
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> scala
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> scoverage
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> self
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> sender
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> system
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> unchecked
+product stamps:
+14 items
+/home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/Customer$.class -> lastModified(1490189167000)
+/home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/Customer.class -> lastModified(1490189167000)
+/home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/PurchaseActor$$anonfun$receive$1.class -> lastModified(1490189167000)
+/home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/PurchaseActor$.class -> lastModified(1490189167000)
+/home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/PurchaseActor.class -> lastModified(1490189167000)
+/home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/RequestHandler$$anonfun$receive$1.class -> lastModified(1490189167000)
+/home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/RequestHandler$.class -> lastModified(1490189167000)
+/home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/RequestHandler.class -> lastModified(1490189167000)
+/home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/SamsungS8$.class -> lastModified(1490189167000)
+/home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/SamsungS8$delayedInit$body.class -> lastModified(1490189167000)
+/home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/SamsungS8.class -> lastModified(1490189167000)
+/home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/ValidationActor$$anonfun$receive$1.class -> lastModified(1490189167000)
+/home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/ValidationActor$.class -> lastModified(1490189167000)
+/home/knoldus/akka-samsung/target/scala-2.12/classes/com/knoldus/ValidationActor.class -> lastModified(1490189167000)
+source stamps:
+5 items
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> hash(565fd91ac92818b4ce2895860ff49b7d9bb57439)
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> hash(014d7ebb993f890bca1bc48a63c9ed42dc1228f7)
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> hash(a90f35416107a13a0a06da437e5ffc49e08a158b)
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> hash(4a8cd34965075ad406828433fbf02abeb679bf18)
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> hash(3ab80f305a37806191954c792e81fc870d03aa03)
+binary stamps:
+5 items
+/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.17.jar -> lastModified(1486741374000)
+/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar -> lastModified(1480936165000)
+/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar -> lastModified(1478455234000)
+/home/knoldus/Application/activator-dist-1.3.12/repository/com.typesafe/config/1.3.0/bundles/config.jar -> lastModified(1477022596000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1485187082000)
+class names:
+5 items
+/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.17.jar -> akka.actor.Actor
+/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar -> scala.Serializable
+/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar -> scoverage.Invoker$
+/home/knoldus/Application/activator-dist-1.3.12/repository/com.typesafe/config/1.3.0/bundles/config.jar -> com.typesafe.config.ConfigFactory
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+5 items
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwlL9aiwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAkc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw9sEUKHQABm5vdGlmeXNxAH4ADCdlisN0AARuYW1lc3EAfgAMDeOYtnQABHdhaXRzcQB+AAzYvRjadAAOY29weSRkZWZhdWx0JDJzcQB+AAzeYpOadAANJGFzSW5zdGFuY2VPZnNxAH4ADLYnL9B0ABBjcmVkaXRDYXJkTnVtYmVyc3EAfgAMC2wWmnQADHByb2R1Y3RBcml0eXNxAH4ADH3FKZZ0AAZlcXVhbHNzcQB+AAxVKFZNdAAMYXNJbnN0YW5jZU9mc3EAfgAM7KaOHHQADHN5bmNocm9uaXplZHNxAH4ADDbfWNZ0AA0kaXNJbnN0YW5jZU9mc3EAfgAMnQeLoXQACGNhbkVxdWFsc3EAfgAMrwkyznQADmNvcHkkZGVmYXVsdCQ0c3EAfgAMFO3H7XQADXByb2R1Y3RQcmVmaXhzcQB+AAzn37+XdAAJbm90aWZ5QWxsc3EAfgAMOKQs83QADG1vYmlsZU51bWJlcnNxAH4ADIshd7J0AAxpc0luc3RhbmNlT2ZzcQB+AAwKEpn9dAAGPGluaXQ+c3EAfgAMYs2RVHQAAj09c3EAfgAMJVT9TXQABWNsb25lc3EAfgAMYVwN4nQACEN1c3RvbWVyc3EAfgAM0u83L3QABiRpbml0JHNxAH4ADPwYLMN0AA5jb3B5JGRlZmF1bHQkM3NxAH4ADE0nJ3N0AAdhZGRyZXNzc3EAfgAMzd1iknQABGNvcHlzcQB+AAy5lJ2JdAAIdG9TdHJpbmdzcQB+AAy1HnXndAACIT1zcQB+AAxp4a+QdAAIZ2V0Q2xhc3NzcQB+AAxjWNHedAAOY29weSRkZWZhdWx0JDFzcQB+AAwbU9/tdAACbmVzcQB+AAwc26tldAACZXFzcQB+AAwi/Ab0dAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMrwEjjnQAAiMjc3EAfgAMbqCYPHQACGZpbmFsaXplc3EAfgAMWtG5jXQADnByb2R1Y3RFbGVtZW50c3EAfgAMwL/3DnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AX3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAFGNvbS5rbm9sZHVzLkN1c3RvbWVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHdzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AX0wACWluaGVyaXRlZHEAfgBfTAAHcGFyZW50c3EAfgBfeHEAfgB8c3EAfgB3dXEAfgBaAAAAAHNxAH4Ad3VxAH4AWgAAAABzcQB+AHd1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHt0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHtzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJVzcQB+AIhxAH4Ai3NxAH4AjHNxAH4Aj3VxAH4AkgAAAANzcQB+AJR0AARqYXZhc3EAfgCUdAACaW9xAH4AmXNxAH4AiHQAB1Byb2R1Y3RxAH4AjnNxAH4AiHQABkVxdWFsc3EAfgCOc3EAfgCIdAAGT2JqZWN0c3EAfgCMc3EAfgCPdXEAfgCSAAAAA3NxAH4AlHEAfgCfc3EAfgCUdAAEbGFuZ3EAfgCZc3EAfgCIdAADQW55cQB+AI51cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AANjb21zcQB+ALJ0AAtjb20ua25vbGR1c3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvYyDh11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA0L2hvbWUva25vbGR1cy9ha2thLXNhbXN1bmcvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFFZf2RrJKBi0ziiVhg/0m32btXQ5
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuWk/QQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBt9nZ3dAAEc2VsZnNxAH4ACygcTrB0AAdjb250ZXh0dXEAfgAJAAAAJXNxAH4AC0FUqh50AAZub3RpZnlzcQB+AAsrGZcadAAHUmVjZWl2ZXNxAH4AC/58AjN0AAR3YWl0c3EAfgALXzcflnQADSRhc0luc3RhbmNlT2ZzcQB+AAugSUMtdAAScHVyY2hhc2VBY3RvclByb3Bzc3EAfgALp2OyWXQABmVxdWFsc3NxAH4AC/3QVrV0AAxhc0luc3RhbmNlT2ZzcQB+AAvAmPuJdAAMc3luY2hyb25pemVkc3EAfgALuGGlAnQADSRpc0luc3RhbmNlT2ZzcQB+AAveOJzYdAAHcmVjZWl2ZXNxAH4AC8EVgYd0AApwcmVSZXN0YXJ0c3EAfgALzdroo3QADWFyb3VuZFJlY2VpdmVzcQB+AAvC3xONdAALcG9zdFJlc3RhcnRzcQB+AAspJNipdAAIcG9zdFN0b3BzcQB+AAsx259zdAAJbm90aWZ5QWxsc3EAfgALNEJ90nQAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgALAftjTnQADGlzSW5zdGFuY2VPZnNxAH4AC1cDB+R0ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgALrWJsVnQADmFyb3VuZFBvc3RTdG9wc3EAfgALcWlDznQABjxpbml0PnNxAH4ACxas2B10AAhwcmVTdGFydHNxAH4AC5+H8zd0AAl1bmhhbmRsZWRzcQB+AAvsi9JydAACPT1zcQB+AAvOBvxvdAAFY2xvbmVzcQB+AAuCK2hWdAAGJGluaXQkc3EAfgALsW3JzXQABnNlbmRlcnNxAH4AC7CLadR0AAh0b1N0cmluZ3NxAH4AC5ygEI90AAIhPXNxAH4AC2Y/g/R0AAhnZXRDbGFzc3NxAH4AC19LY6F0AA1QdXJjaGFzZUFjdG9yc3EAfgALm+rtqnQAAm5lc3EAfgALLPCHFnQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4AC51g9ep0AAJlcXNxAH4AC5rxROl0AAIjI3NxAH4AC+u0LF50AAhmaW5hbGl6ZXNxAH4ACyEJX3l0AAhoYXNoQ29kZXNxAH4ACzJSpsp0AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABljb20ua25vbGR1cy5QdXJjaGFzZUFjdG9ydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AH1zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AZUwACWluaGVyaXRlZHEAfgBlTAAHcGFyZW50c3EAfgBleHEAfgCCc3EAfgB9dXEAfgBgAAAAAHNxAH4AfXVxAH4AYAAAAABzcQB+AH11cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAA3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIF0AAVBY3RvcnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AgXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEYWtrYXNxAH4AmnQABWFjdG9yc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJtzcQB+AI50AAZPYmplY3RzcQB+AJJzcQB+AJV1cQB+AJgAAAADc3EAfgCadAAEamF2YXNxAH4AmnQABGxhbmdxAH4AoXNxAH4AjnQAA0FueXNxAH4AknNxAH4AlXVxAH4AmAAAAAJzcQB+AJp0AAVzY2FsYXEAfgChc3EAfgBicQB+AG91cQB+AHAAAAAAc3EAfgByAHQAGWNvbS5rbm9sZHVzLlB1cmNoYXNlQWN0b3J1cQB+AHUAAAAAfnEAfgB3dAAGTW9kdWxldXEAfgB7AAAAAHNxAH4AfXEAfgCDc3EAfgB9c3EAfgCFc3EAfgB9dXEAfgBgAAAAAHNxAH4AfXVxAH4AYAAAAABzcQB+AH11cQB+AIwAAAACc3EAfgCOcQB+AKNzcQB+AJJzcQB+AJV1cQB+AJgAAAADc3EAfgCacQB+AKhzcQB+AJpxAH4AqnEAfgChc3EAfgCOcQB+AKxzcQB+AJJzcQB+AJV1cQB+AJgAAAACc3EAfgCacQB+ALFxAH4AoXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAA2NvbXNxAH4A0HQAC2NvbS5rbm9sZHVzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFa9jIOHXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADQvaG9tZS9rbm9sZHVzL2Fra2Etc2Ftc3VuZy90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUAU1+u5k/iQvKG8SKY8ntQtwSKPc=
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwYOwTFwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHDI90BXdAAEc2VsZnNxAH4AC2FuOjZ0AAdjb250ZXh0dXEAfgAJAAAAKHNxAH4AC9/QVzR0AAZub3RpZnlzcQB+AAtsnMGzdAAHUmVjZWl2ZXNxAH4AC1OTio50AAR3YWl0c3EAfgALekjWzXQADSRhc0luc3RhbmNlT2ZzcQB+AAv0usJtdAAGZXF1YWxzc3EAfgAL4kr6snQADHJlcXVlc3RQcm9wc3NxAH4AC/V4S2d0AAxhc0luc3RhbmNlT2ZzcQB+AAsESXDudAAMc3luY2hyb25pemVkc3EAfgALnHn9iXQADHBob25lTnVtYmVyc3NxAH4AC+8bY8V0AA0kaXNJbnN0YW5jZU9mc3EAfgALZakoyXQAB3JlY2VpdmVzcQB+AAusdMFmdAAKcHJlUmVzdGFydHNxAH4ACwU9B+d0AA1hcm91bmRSZWNlaXZlc3EAfgAL8CtViXQAC3Bvc3RSZXN0YXJ0c3EAfgALq7Ls33QACHBvc3RTdG9wc3EAfgAL28vcAXQACW5vdGlmeUFsbHNxAH4ACyz4PhJ0ABFhcm91bmRQb3N0UmVzdGFydHNxAH4AC/aLsYF0AAxpc0luc3RhbmNlT2ZzcQB+AAt5HrQfdAAQYXJvdW5kUHJlUmVzdGFydHNxAH4ACyllzop0AA5hcm91bmRQb3N0U3RvcHNxAH4AC3cuPYV0AAY8aW5pdD5zcQB+AAu0A5BTdAAIcHJlU3RhcnRzcQB+AAv2LNBCdAAJdW5oYW5kbGVkc3EAfgALz6dPY3QAAj09c3EAfgALytedDHQABWNsb25lc3EAfgALERtJGHQABiRpbml0JHNxAH4AC30OFpN0AAZzZW5kZXJzcQB+AAshddPgdAAIdG9TdHJpbmdzcQB+AAubu7pbdAAOUmVxdWVzdEhhbmRsZXJzcQB+AAu0JuZYdAACIT1zcQB+AAsZrwS2dAAIZ2V0Q2xhc3NzcQB+AAtwNVDldAANdmFsaWRhdGlvblJlZnNxAH4AC88tUs90AAJuZXNxAH4ACwBBTxF0ABJzdXBlcnZpc29yU3RyYXRlZ3lzcQB+AAuiBuX+dAACZXFzcQB+AAut6iKpdAADbG9nc3EAfgALvnK+QnQAAiMjc3EAfgALEhvFbnQACGZpbmFsaXplc3EAfgALkPC5p3QACGhhc2hDb2Rlc3EAfgALfxrHzXQADmFyb3VuZFByZVN0YXJ0c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Aa3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAGmNvbS5rbm9sZHVzLlJlcXVlc3RIYW5kbGVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AINzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Aa0wACWluaGVyaXRlZHEAfgBrTAAHcGFyZW50c3EAfgBreHEAfgCIc3EAfgCDdXEAfgBmAAAAAHNxAH4Ag3VxAH4AZgAAAABzcQB+AIN1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAA3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AId0AAVBY3RvcnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ah3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEYWtrYXNxAH4AoHQABWFjdG9yc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKFzcQB+AJR0AAZPYmplY3RzcQB+AJhzcQB+AJt1cQB+AJ4AAAADc3EAfgCgdAAEamF2YXNxAH4AoHQABGxhbmdxAH4Ap3NxAH4AlHQAA0FueXNxAH4AmHNxAH4Am3VxAH4AngAAAAJzcQB+AKB0AAVzY2FsYXEAfgCnc3EAfgBocQB+AHV1cQB+AHYAAAAAc3EAfgB4AHQAGmNvbS5rbm9sZHVzLlJlcXVlc3RIYW5kbGVydXEAfgB7AAAAAH5xAH4AfXQABk1vZHVsZXVxAH4AgQAAAABzcQB+AINxAH4AiXNxAH4Ag3NxAH4Ai3NxAH4Ag3VxAH4AZgAAAABzcQB+AIN1cQB+AGYAAAAAc3EAfgCDdXEAfgCSAAAAAnNxAH4AlHEAfgCpc3EAfgCYc3EAfgCbdXEAfgCeAAAAA3NxAH4AoHEAfgCuc3EAfgCgcQB+ALBxAH4Ap3NxAH4AlHEAfgCyc3EAfgCYc3EAfgCbdXEAfgCeAAAAAnNxAH4AoHEAfgC3cQB+AKd1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AANjb21zcQB+ANZ0AAtjb20ua25vbGR1c3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvYyDh11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAA0L2hvbWUva25vbGR1cy9ha2thLXNhbXN1bmcvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFKkPNUFhB6E6CgbaQ35f/EngihWL
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwMYbKZAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAdc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwf6eMaHQABm5vdGlmeXNxAH4ADPYh0gp0AAR3YWl0c3EAfgAMdSlfSHQADSRhc0luc3RhbmNlT2ZzcQB+AAwBYmN+dAAGc3lzdGVtc3EAfgAMvBzlQ3QABmVxdWFsc3NxAH4ADAO7YFd0AAlTYW1zdW5nUzhzcQB+AAwcX8P0dAAMYXNJbnN0YW5jZU9mc3EAfgAMfWKJxXQADmV4ZWN1dGlvblN0YXJ0c3EAfgAMy/cM3nQAC3VzZXJSZXF1ZXN0c3EAfgAMr2EZCHQADHN5bmNocm9uaXplZHNxAH4ADLnBixF0AA0kaXNJbnN0YW5jZU9mc3EAfgAMI5Ply3QABG1haW5zcQB+AAz8HUZ6dAAJbm90aWZ5QWxsc3EAfgAMdw2PMnQADGlzSW5zdGFuY2VPZnNxAH4ADFBlZ/J0AAI9PXNxAH4ADFBxyAN0AAVjbG9uZXNxAH4ADLUIrV10AAYkaW5pdCRzcQB+AAw+E1QWdAAIdG9TdHJpbmdzcQB+AAw5pqf6dAAEYXJnc3NxAH4ADM8Nl3J0AApyZXF1ZXN0UmVmc3EAfgAMluATE3QAAiE9c3EAfgAMhfNofHQACGdldENsYXNzc3EAfgAMy7SyQHQAAm5lc3EAfgAMLo9SN3QABHVzZXJzcQB+AAxhg1uqdAACZXFzcQB+AAwKABG7dAALZGVsYXllZEluaXRzcQB+AAxFD94NdAACIyNzcQB+AAwlb1oldAAIZmluYWxpemVzcQB+AAyCRjuldAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBReHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAVY29tLmtub2xkdXMuU2Ftc3VuZ1M4dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAGnNjYWxhLmRlcHJlY2F0ZWRPdmVycmlkaW5ndAAQc2NhbGEuZGVwcmVjYXRlZHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBrc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFFMAAlpbmhlcml0ZWRxAH4AUUwAB3BhcmVudHNxAH4AUXhxAH4AcHNxAH4Aa3VxAH4ATAAAAABzcQB+AGt1cQB+AEwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AFJxAH4AW3VxAH4AXAAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+AHp4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgANTAAFdmFsdWVxAH4ADXhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ab3QAFGRlcHJlY2F0ZWRPdmVycmlkaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBvc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCUc3EAfgBeAHEAfgAldXEAfgBhAAAAAHNxAH4Ah3QABFVuaXRxAH4AjXVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AHp4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AGR0AAVQbGFpbnEAfgAzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCIWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBvc3EAfgCHdAAFQXJyYXlxAH4AjXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCHdAAGU3RyaW5nc3EAfgCLc3EAfgCOdXEAfgCRAAAAA3NxAH4Ak3QABGphdmFzcQB+AJN0AARsYW5ncQB+AJhzcQB+AGt1cQB+AK8AAAAEc3EAfgCHdAADQXBwcQB+AI1zcQB+AId0AAtEZWxheWVkSW5pdHEAfgCNc3EAfgCHdAAGT2JqZWN0cQB+ALNzcQB+AId0AANBbnlxAH4AjXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAA2NvbXNxAH4AxnQAC2NvbS5rbm9sZHVzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFa9jIOHXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADQvaG9tZS9rbm9sZHVzL2Fra2Etc2Ftc3VuZy90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUSozTSWUHWtQGgoQz+/AqvrZ5vxg=
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwt37VbQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBK75MmdAAEc2VsZnNxAH4AC2URZx10AAdjb250ZXh0dXEAfgAJAAAAJ3NxAH4ACz5tbhh0AAZub3RpZnlzcQB+AAveWOzZdAAHUmVjZWl2ZXNxAH4ACx78Qql0AAR3YWl0c3EAfgAL6h7BpnQADSRhc0luc3RhbmNlT2ZzcQB+AAvRR4IcdAAPVmFsaWRhdGlvbkFjdG9yc3EAfgALbp6reHQABmVxdWFsc3NxAH4AC4nGnjV0AAxhc0luc3RhbmNlT2ZzcQB+AAtUA1WVdAAKbm9PZlBob25lc3NxAH4AC1EN39Z0AAxzeW5jaHJvbml6ZWRzcQB+AAvXAJyXdAANJGlzSW5zdGFuY2VPZnNxAH4AC/yaH610AAdyZWNlaXZlc3EAfgALrwAvw3QACnByZVJlc3RhcnRzcQB+AAudbnYedAANYXJvdW5kUmVjZWl2ZXNxAH4AC3A6mYV0AAtwb3N0UmVzdGFydHNxAH4AC57LqPJ0AAhwb3N0U3RvcHNxAH4ACzT2qcp0AAlub3RpZnlBbGxzcQB+AAtmQ0c2dAARYXJvdW5kUG9zdFJlc3RhcnRzcQB+AAsPDCcWdAAPdmFsaWRhdGlvblByb3Bzc3EAfgAL0P6qVnQADGlzSW5zdGFuY2VPZnNxAH4ACzUJB/R0ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgALgM4K5XQADmFyb3VuZFBvc3RTdG9wc3EAfgAL6Gz9hnQABjxpbml0PnNxAH4ACw+W/Hp0AAhwcmVTdGFydHNxAH4AC1BK1xt0AAl1bmhhbmRsZWRzcQB+AAs9EXo3dAACPT1zcQB+AAslHqQsdAAFY2xvbmVzcQB+AAuyKypYdAAGJGluaXQkc3EAfgAL4nnaPXQABnNlbmRlcnNxAH4AC6oTj+V0AAh0b1N0cmluZ3NxAH4AC2kdaBp0AAIhPXNxAH4AC2XSUyx0AAhnZXRDbGFzc3NxAH4ACyDDsyV0AAJuZXNxAH4AC/IDo7h0ABJzdXBlcnZpc29yU3RyYXRlZ3lzcQB+AAsnhdaAdAACZXFzcQB+AAuSBXwDdAADbG9nc3EAfgALHu+rjXQAAiMjc3EAfgALd0orrnQACGZpbmFsaXplc3EAfgALdmpHrHQACGhhc2hDb2Rlc3EAfgALRy1FvHQADmFyb3VuZFByZVN0YXJ0c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AaXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAG2NvbS5rbm9sZHVzLlZhbGlkYXRpb25BY3RvcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGlMAAlpbmhlcml0ZWRxAH4AaUwAB3BhcmVudHNxAH4AaXhxAH4AhnNxAH4AgXVxAH4AZAAAAABzcQB+AIF1cQB+AGQAAAAAc3EAfgCBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCFdAAFQWN0b3JzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGFra2FzcQB+AJ50AAVhY3RvcnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCfc3EAfgCSdAAGT2JqZWN0c3EAfgCWc3EAfgCZdXEAfgCcAAAAA3NxAH4AnnQABGphdmFzcQB+AJ50AARsYW5ncQB+AKVzcQB+AJJ0AANBbnlzcQB+AJZzcQB+AJl1cQB+AJwAAAACc3EAfgCedAAFc2NhbGFxAH4ApXNxAH4AZnEAfgBzdXEAfgB0AAAAAHNxAH4AdgB0ABtjb20ua25vbGR1cy5WYWxpZGF0aW9uQWN0b3J1cQB+AHkAAAAAfnEAfgB7dAAGTW9kdWxldXEAfgB/AAAAAHNxAH4AgXEAfgCHc3EAfgCBc3EAfgCJc3EAfgCBdXEAfgBkAAAAAHNxAH4AgXVxAH4AZAAAAABzcQB+AIF1cQB+AJAAAAACc3EAfgCScQB+AKdzcQB+AJZzcQB+AJl1cQB+AJwAAAADc3EAfgCecQB+AKxzcQB+AJ5xAH4ArnEAfgClc3EAfgCScQB+ALBzcQB+AJZzcQB+AJl1cQB+AJwAAAACc3EAfgCecQB+ALVxAH4ApXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAA2NvbXNxAH4A1HQAC2NvbS5rbm9sZHVzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFa9jIOHXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADQvaG9tZS9rbm9sZHVzL2Fra2Etc2Ftc3VuZy90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUOrgPMFo3gGGRlUx5LoH8hw0DqgM=
+external apis:
+0 items
+source infos:
+5 items
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/Customer.scala -> 
+AAAAAAAAAAA=
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/PurchaseActor.scala -> 
+AAAAAAAAAAA=
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/RequestHandler.scala -> 
+AAAAAAAAAAA=
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/SamsungS8.scala -> 
+AAAAAAAAAAA=
+/home/knoldus/akka-samsung/src/main/scala/com/knoldus/ValidationActor.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvYyDh11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANC9ob21lL2tub2xkdXMvYWtrYS1zYW1zdW5nL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv

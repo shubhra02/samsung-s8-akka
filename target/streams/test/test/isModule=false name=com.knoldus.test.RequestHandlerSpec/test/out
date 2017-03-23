@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m[32mRequestHandlerSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mrequest handler[0m[0m
+[0m[[0minfo[0m] [0m[32m- must reply with  'request for phone purchase accepted' when phone number is not in list[0m[0m
+[0m[[0minfo[0m] [0m[32m- must reply with'already purchased' when phone number is already available in list[0m[0m
